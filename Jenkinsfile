@@ -15,7 +15,7 @@ pipeline {
 
         stage('Ejecutar tests') {
             steps {
-                sh 'npm test'
+                sh 'npx jest'
             }
         }
 
@@ -42,4 +42,3 @@ pipeline {
         }
     }
 }
- 
